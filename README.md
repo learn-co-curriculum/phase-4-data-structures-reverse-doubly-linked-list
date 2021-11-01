@@ -2,13 +2,13 @@
 
 ## Learning Goals
 
-- Build a Doubly Linked List and use it to solve an algorithm
+- Build a doubly linked list and use it to solve an algorithm
 
 ## Introduction
 
-At this point we've learned how to solve algorithms with Singly Linked Lists,
-and learned what Doubly Linked Lists are, so it's time to put that knowledge to
-use and solve an algorithm with a Doubly Linked List!
+At this point we've learned how to solve algorithms with singly linked lists,
+and learned what doubly linked lists are, so it's time to put that knowledge to
+use and solve an algorithm with a doubly linked list!
 
 Fork and clone this lab; you'll be coding in the `lib` folder. You can
 run the tests at any point using `learn test` to check your work.
@@ -33,3 +33,6 @@ For example:
 ### Bonus
 
 Try to solve the problem recursively!
+
+> Hint: You might want to create a recursive helper method `reverse_node`
+> instead of trying to use the `reverse!` method recursively.
