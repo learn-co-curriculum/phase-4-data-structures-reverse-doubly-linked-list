@@ -15,20 +15,20 @@ run the tests at any point using `learn test` to check your work.
 
 ## Instructions
 
-Given a doubly linked list of `n` elements as an argument, write a function that
-reverses the list, so the head is the new tail, the tail is the new head, and
-all of the pointers are correctly pointed.
+Write a method `LinkedList#reverse!` that reverses the list in place, so the
+head is the new tail, the tail is the new head, and all of the `prev_node` and
+`next_node` attributes of each node in the list point to the correct nodes.
 
-For example,
+For example:
 
-- Input: 6 <--> 7 <--> 8
-Output => 8 7 6
+- Input:  `6 <--> 7 <--> 8`
+- Output: `8 <--> 7 <--> 6`
 
-- Input: 11 <--> 18 <--> 19 <--> 94
-Output => 94 19 18 11
+- Input:  `11 <--> 18 <--> 19 <--> 94`
+- Output: `94 <--> 19 <--> 18 <--> 11`
 
-- Input: 41 <--> 101 <--> 8 <--> 28 <--> 32
-Output => 32 28 8 101 41
+- Input:  `41 <--> 101 <--> 8 <--> 28 <--> 32`
+- Output: `32 <--> 28 <--> 8 <--> 101 <--> 41`
 
 ### Bonus
 
